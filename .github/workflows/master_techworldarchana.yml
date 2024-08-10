@@ -61,5 +61,5 @@ jobs:
         with:
           app-name: 'techworldarchana'
           slot-name: 'Production'
-          package: ./webapp
+          package: .
           
