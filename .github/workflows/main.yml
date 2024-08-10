@@ -30,7 +30,7 @@ jobs:
         run: |
           dotnet restore
           dotnet build --configuration Release
-           run: dotnet publish -c Release -o ./webapp 
+          dotnet publish -c Release -o ./webapp 
           
       # Deploy to Azure Web apps
       - name: 'Run Azure webapp deploy action using Azure Credentials'
